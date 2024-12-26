@@ -15,7 +15,7 @@ const App = () => {
 
 
   return (
-    <div style={{height: '100%', width: '100%', backgroundColor: 'limegreen', margin: '0px', padding: '0px'}}>
+    <div className="parent" style={{height: '100%', width: '100%', backgroundColor: 'limegreen', margin: '0px', padding: '0px'}}>
        <h1 style={{marginBottom: '30px',}}>Parent Component</h1>
        <ChildComponent1 selectedOption={selectedOption} updateOption={updateOption} style={{marginBottom: '0px'}}/>
        <ChildComponent2 selectedOption={selectedOption} updateOption={updateOption} style={{marginTop: '0px'}}/>
